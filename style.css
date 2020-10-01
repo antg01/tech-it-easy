@@ -1,4 +1,38 @@
 /* START NAV  */
+nav {
+    margin: 0;
+    padding: 0;
+    background : yellow 
+
+}
+
+ul {
+   
+    display: flex;
+    justify-content: flex-end;
+    width: 90%;
+    padding: 2%;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* END NAV */
 
