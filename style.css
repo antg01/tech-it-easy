@@ -1,19 +1,35 @@
 /* START NAV  */
-nav {
-    margin: 0;
-    padding: 0;
-    background : yellow 
-
-}
-
-ul {
-   
+.navbar-row {
     display: flex;
-    justify-content: flex-end;
-    width: 90%;
-    padding: 2%;
-    
+    flex-direction: row;
+    width: 100%;
 }
+
+.column {
+    height: 50px;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.left{
+    background-color: red;
+}
+
+.right{
+    background-color: blue;
+}
+ .middle{
+     background-color: yellow;
+ }
+
+
+span{
+    justify-content: center;
+}
+
+
+
 
 
 
