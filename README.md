@@ -5,9 +5,11 @@ Jaune : # fff04e
 Noir : # 000000
 Bleu roi : # 023255
 
+----- Typography
+Bebas Neue
 
 ----- Css Class (BEM)
 
-Block__Element-Modifier
-=> header__article-item
-=> main__input-email
+Block**Element-Modifier
+=> header**article-item
+=> main\_\_input-email
