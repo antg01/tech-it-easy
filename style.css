@@ -42,6 +42,11 @@ body {
   align-items: flex-start;
   padding-left: 1rem;
   transition: all 0.5s ease;
+  background-color: #023255;
+}
+
+.main__item-placeholder {
+  opacity: 0;
 }
 
 .main__item:hover {
