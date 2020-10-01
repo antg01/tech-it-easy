@@ -13,59 +13,63 @@ body {
 /* END NAV */
 
 /* START HEADER  */
-.header{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-    background-color: transparent;
-    height: 500px;
-    width: 100%;
-    
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  background-color: transparent;
+  height: 85vh;
+  width: 100%;
 }
-.header__logo{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-filter: drop-shadow(5px 5px 5px #222 );
-    filter: drop-shadow(5px 5px 5px #222);
-    width: 80%; 
-    height: 80%; 
-    object-fit: contain;
+.header__logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  width: 80%;
+  height: 80%;
+  object-fit: contain;
 }
-.header__title_box1{
-    background-color: rgba(2,50,85,0.5);
+.header__title_box1 {
+  background-color: rgba(2, 50, 85, 0.5);
 }
-.header__title_box2{
-    background-color: rgba(255,240,78,0.5);
+.header__title_box2 {
+  background-color: rgba(255, 240, 78, 0.5);
 }
-.header__title-H1-color{
-    color: #fff04e;
-    text-shadow: 2px 2px #ff0000;
-    padding: 5px;
-    margin: 10px;
+.header__title-H1-color {
+  color: #fff04e;
+  text-shadow: 2px 2px #ff0000;
+  padding: 5px;
+  margin: 10px;
 }
-.header__title-H3-color{
-    color: #023255;
-    /* text-shadow: 2px 2px #ffffff; */
-    padding: 5px;
-    margin: 10px;
-}
-
-.header__brackground{
-    background-image: url("assets/header.jpeg");
-    position: fixed;
-    background-size: cover;
-    top: 0;
-    height: 500px;
-    width: 100%;
-    z-index: -1;
+.header__title-H3-color {
+  color: #023255;
+  /* text-shadow: 2px 2px #ffffff; */
+  padding: 5px;
+  margin: 10px;
 }
 
+.header__brackground {
+  background-image: url('assets/header.jpeg');
+  position: fixed;
+  background-size: cover;
+  top: 0;
+  height: 85vh;
+  width: 100%;
+  z-index: -1;
+}
 
 /* END HEADER */
 
 /* START MAIN  */
+.main__wrapper {
+  width: 100%;
+  background-color: #fff;
+}
+
 .main {
   background-color: white;
   display: grid;
@@ -74,7 +78,6 @@ body {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: repeat(7, 350px);
   grid-gap: 20px;
-  
 }
 
 .main__item-large {
