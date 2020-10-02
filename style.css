@@ -16,7 +16,7 @@ body {
 }
 
 .column {
-    height: 50px;
+    height: 90px;
     flex-direction: column;
     flex-basis: 100%;
     flex: 1;
@@ -35,6 +35,9 @@ body {
 
 
 span{
+    display: flex;
+    align-items: center;
+    height: 90px;
     justify-content: center;
 }
 
