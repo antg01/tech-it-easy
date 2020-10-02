@@ -10,59 +10,35 @@ body {
 
 /* START NAV  */
 .navbar-row {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 .column {
-    height: 90px;
-    flex-direction: column;
-    flex-basis: 100%;
-    flex: 1;
+  height: 90px;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
 }
 
-.left{
-    background-color: red;
+.left {
+  background-color: red;
 }
 
-.right{
-    background-color: blue;
+.right {
+  background-color: blue;
 }
- .middle{
-     background-color: yellow;
- }
-
-
-span{
-    display: flex;
-    align-items: center;
-    height: 90px;
-    justify-content: center;
+.middle {
+  background-color: yellow;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+span {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  justify-content: center;
+}
 /* END NAV */
 
 /* START HEADER  */
@@ -101,10 +77,10 @@ span{
 }
 
 .header__brackground {
-  background-image: url('assets/header.jpeg');
+  background-image: url('../assets/header.jpeg');
   position: fixed;
   background-size: cover;
-  top: 0;
+  top: 90px;
   height: 85vh;
   width: 100%;
   z-index: -1;
@@ -248,47 +224,47 @@ span{
 }
 
 #article-1 {
-  background-image: url('./assets/article-1.jpg');
+  background-image: url('../assets/article-1.jpg');
   background-size: cover;
 }
 
 #article-2 {
-  background-image: url('./assets/article-2.jpg');
+  background-image: url('../assets/article-2.jpg');
   background-size: cover;
 }
 
 #article-3 {
-  background-image: url('./assets/article-3.jpg');
+  background-image: url('../assets/article-3.jpg');
   background-size: cover;
 }
 
 #article-4 {
-  background-image: url('./assets/article-4.jpg');
+  background-image: url('../assets/article-4.jpg');
   background-size: cover;
 }
 
 #article-5 {
-  background-image: url('./assets/article-5.jpg');
+  background-image: url('../assets/article-5.jpg');
   background-size: cover;
 }
 
 #article-6 {
-  background-image: url('./assets/article-6.jpg');
+  background-image: url('../assets/article-6.jpg');
   background-size: cover;
 }
 
 #article-7 {
-  background-image: url('./assets/article-7.jpg');
+  background-image: url('../assets/article-7.jpg');
   background-size: cover;
 }
 
 #article-8 {
-  background-image: url('./assets/article-8.jpg');
+  background-image: url('../assets/article-8.jpg');
   background-size: cover;
 }
 
 #article-9 {
-  background-image: url('./assets/article-9.jpg');
+  background-image: url('../assets/article-9.jpg');
   background-size: cover;
 }
 /* END MAIN */
