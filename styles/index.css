@@ -1,0 +1,9 @@
+/* GENERAL */
+body {
+  margin: 0;
+}
+
+* {
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 1px;
+}
