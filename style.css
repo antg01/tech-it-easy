@@ -9,19 +9,16 @@ body {
 }
 
 /* START NAV  */
-.navbar-row {
+
+
+.navbar {
     display: flex;
     top: 0px;
     position: relative;
     flex-direction: row;
     width: 100%;
     background-color: #40649e98;
-    height: 120px;
-}
-
-.column{
-    background-color: #40649e98;
-
+    height: 100px;
 }
 
 ul{
@@ -42,7 +39,7 @@ ul{
     transform: translatex(-80px);
 }
  
-.social-navbar{
+.navbar-nav{
     display: flex;
     position: absolute;
     right: 0;
