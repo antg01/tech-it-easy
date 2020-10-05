@@ -8,7 +8,6 @@
 // 2 - Get scroll event on page
 // --> console.log(" i am scrolling "") add listener on body or window ?
 
-
 //window.addEventListener('scroll', (event) => {
     //console.log("iam scrolling")
 //});

@@ -5,7 +5,7 @@
   flex-direction: row;
   align-items: flex-end;
   background-color: transparent;
-  height: 85vh;
+  height: 69vh;
   width: 100%;
 }
 .header__logo {
@@ -37,7 +37,7 @@
   background-image: url('../assets/header.jpeg');
   position: fixed;
   background-size: cover;
-  top: 120px;
+  top: 0px;
   height: 85vh;
   width: 100%;
   z-index: -1;
