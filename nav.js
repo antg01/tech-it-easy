@@ -2,6 +2,7 @@
 
 window.addEventListener('scroll', (event) => {
   let main = window.scrollY;
+  console.log(main)
 });
 
 window.addEventListener('scroll', (event) => {
