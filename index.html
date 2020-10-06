@@ -20,22 +20,18 @@
     />
 
     <!-- CSS IMPORTS -->
-    <link rel="stylesheet" href="styles/index.css" />
-    <link rel="stylesheet" href="styles/nav.css" />
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--START NAV -->
-    <nav class="navbar-row">
+    <nav class="navbar navbar-expand-sm" id="navbar">
       <div class="logo">
         <img class="image-logo" src="assets/Logo_PNGJAUNE.png  " alt="LOGO" srcset="" />
       </div>
 
-      <ul class="social-navbar">
-        <li class="social-image">
-          <a href="https://www.facebook.com/Techiteasybxl">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.facebook.com/Techiteasybxl">
             <img
               class="navbar-image"
               src="assets/Facebook_icon-icons.com_66805.png"
@@ -44,8 +40,8 @@
             />
           </a>
         </li>
-        <li class="social-image">
-          <a href="https://twitter.com/Techiteasybxl" class="icon">
+        <li class="nav-item">
+          <a class="nav-link" href="https://twitter.com/Techiteasybxl" class="icon">
             <img
               class="navbar-image"
               src="assets/5294-twitter-i_102511 (1).png"
@@ -54,8 +50,8 @@
             />
           </a>
         </li>
-        <li class="social-image">
-          <a href="https://www.instagram.com/Techiteasybxl/">
+        <li class="nav-item">
+          <a class="nav-link" href="https://www.instagram.com/Techiteasybxl/">
             <img
               class="navbar-image"
               src="assets/3721672-instagram_108066 (1).png"
@@ -69,7 +65,7 @@
     <!-- END NAV -->
 
     <!-- START HEADER-->
-    <header class="header">
+    <header class="header" id="header">
       <img class="header__logo" src="assets/Logo_PNGJAUNE.png" alt="" />
       <div class="header__title">
         <h1 class="header__title-H1-color header__title_box1">Main Article Title</h1>
@@ -86,7 +82,7 @@
 
     <!-- START MAIN-->
     <div class="main__wrapper">
-      <main class="main">
+      <main class="main" id="main">
         <div id="article-1" class="main__item main__item-large">
           <h2 class="main__item-title">Here is a title!</h2>
           <div class="main__item-tags">
@@ -148,6 +144,7 @@
     </footer>
     <!-- END FOOTER -->
 
-    <script src="script.js"></script>
+    <script src="nav.js"></script>
+    <script src="article.js"></script>
   </body>
 </html>
