@@ -1,27 +1,27 @@
-// DOM ELEMENTS
-const articles = document.querySelectorAll('.main__item');
+// 1 - Recupérer la position du bottom du header
+//const header = document.getElementById("header")
+//let bottomHeaderPosition = header.offsetTop
+//console.log(bottomHeaderPosition)
 
-// Variables
-var bodyRect = document.body.getBoundingClientRect();
+// 2 - Get scroll event on page
+// --> console.log(" i am scrolling "") add listener on body or window ?
 
-// articles[0].style.transform = 'translateX(-100%)';
+//window.addEventListener('scroll', (event) => {
+//console.log("iam scrolling")
+//});
 
-// SCROLL EVENT
-window.addEventListener('scroll', (e) => {
-  //   for (const article of articles) {
-  //     let articleRect = article.getBoundingClientRect();
-  //     let offset = articleRect.top - bodyRect.top;
-  //     console.log(article, offset);
-  //   }
-  //   articles[0].style.transform = `translateX(${-800 + window.scrollY}px)`;
-  //   console.log(window.scrollY, offset);
+// 3 - Get window position while scrolling
 
-  if (window.scrollY >= 300) {
-    articles[0].classList.add('enter-left');
-  }
+window.addEventListener('scroll', (event) => {
+  let main = window.scrollY;
+});
 
-  if (window.scrollY >= 400) {
-    articles[1].classList.add('enter-right');
-    console.log(articles[1], 'enter');
+window.addEventListener('scroll', (event) => {
+  const main = document.getElementById('main');
+  const navbar = document.getElementById('navbar');
+  if (window.scrollY >= main.offsetTop) {
+    navbar.style.position = 'fixed';
+  } else {
+    navbar.style.position = 'relative';
   }
 });
