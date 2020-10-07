@@ -28,6 +28,25 @@ class Article {
         </article>
         </div>
         <div>
+        <ul class="social">
+          <li class="social__buttons">
+            <a href="#">
+              <img class="navbar-image" src="../assets/Facebook_icon-icons.com_66805.png" alt="Facebook" srcset=""/>
+            </a>
+          </li>
+          <li class="social__buttons">
+            <a href="#">
+              <img class="navbar-image" src="../assets/5294-twitter-i_102511 (1).png" alt="Twitter" srcset=""/>
+            </a>
+          </li>
+          <li class="social__buttons">
+            <a href="#">
+              <img class="navbar-image" src="../assets/3721672-instagram_108066 (1).png" alt="Instagram" srcset=""/>
+            </a>
+          </li>
+        </ul>
+      </div>
+        <div>
           <form>
               <div class="form__container">
                 <h2 class="h2__color">Subscribe to our Newsletter</h2>
