@@ -12,7 +12,7 @@ class Article {
     <div>
         <div class="main__wrapper">
             <div>
-            <img src="${this.imageUrl}" alt="article test">
+            <img class="hero-image" src="${this.imageUrl}" alt="article test">
         </div>
         <div>
         <article>

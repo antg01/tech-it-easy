@@ -166,7 +166,6 @@ ul {
 }
 
 .main__item-title {
-  border-radius: 5px;
   background-color: #fff04e;
   padding: 0.5rem 1rem;
 }
@@ -177,17 +176,17 @@ ul {
 }
 
 .main__item-large .main__item-title {
-  font-size: 3rem;
-  margin: 1rem 0;
+  font-size: 2rem;
+  margin: 0.5rem 0;
 }
 
 .main__item-tag {
   margin-right: 1rem;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
   background-color: #023255;
   color: #fff;
   font-weight: 300;
-  border-radius: 5px;
+  font-size: 1rem;
 }
 
 @media screen and (max-width: 1600px) {
@@ -227,7 +226,7 @@ ul {
 
   .main__item-large .main__item-title,
   .main__item-title {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .main__item-tags {
@@ -283,11 +282,8 @@ ul {
 
 /* START FOOTER  */
 .footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #303030;
-  min-height: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 0.5rem 0;
 }
 
 .footer__list {
@@ -295,12 +291,12 @@ ul {
   margin: 0;
   list-style: none;
   display: flex;
-  width: 80%;
-  justify-content: space-around;
+  width: 100%;
 }
 
 .footer__list-item a {
   text-decoration: none;
+  margin: 0 1rem;
   color: #fff;
 }
 
@@ -313,7 +309,7 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    height: 180px;
+    height: 150px;
   }
 }
 /* END FOOTER */

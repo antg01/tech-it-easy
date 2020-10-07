@@ -11,7 +11,7 @@ body {
 /* START NAV  */
 
 .navbar {
-  position: fixed;
+  position: relative;
   display: flex;
   top: 0px;
   flex-direction: row;
@@ -61,7 +61,7 @@ ul {
   padding-right: 10px;
   padding-left: 10px;
 }
-img {
+.hero-image {
   width: 100%;
   max-width: none;
   height: auto;
