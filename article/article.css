@@ -16,7 +16,7 @@ body {
   top: 0px;
   flex-direction: row;
   width: 100%;
-  background-color: #40649e98;
+  background-color: #030914be;
   height: 100px;
   z-index: 999;
 }
@@ -42,9 +42,9 @@ ul {
 .navbar-nav {
   display: flex;
   position: absolute;
-  right: 0;
+  right: 60;
   top: 15%;
-  margin: 10px;
+  margin: px;
   padding: 10px;
   bottom: 0;
   width: 120px;
@@ -145,3 +145,42 @@ input[type='submit']:hover {
 }
 
 /* END NEWSLETTER */
+@media screen and (max-width: 1600px) {
+  .navbar-image{
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-image{
+    height: 28px;
+ }
+
+ .navbar-nav{
+   width: 90px;
+ }
+
+}      
+
+
+@media screen and (max-width: 400px) {
+  .navbar-nav{
+    right: 10px;
+    top: 15%;
+    width: 70px;
+    padding: 10px;
+    margin: 15px;
+  }
+  .navbar-image{
+    height: 20px;
+    }
+  .logo{
+    left: 60px;
+    top: 5%;
+    height: 20px;
+  }
+  .image-logo{
+    height: 100px;
+  }  
+}
+  
