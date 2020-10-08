@@ -48,9 +48,9 @@ class Article {
         <div>
         <ul class="social">
           <li class="social__buttons">
-            <a href="#">
-                <img class="navbar-image" src="../assets/Facebook_icon-icons.com_66805.png" alt="Facebook" srcset=""/>
-              </a>
+          <a data-href="https://www.facebook.com/Techiteasybxl" data-layout="button" data-size="large" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FTechiteasybxl&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+          <img class="navbar-image" src="../assets/Facebook_icon-icons.com_66805.png" alt="Facebook"/>
+        </a>
             </li>
             <li class="social__buttons">
               <a href="#">
