@@ -5,9 +5,29 @@ let current = 2;
 class Article {
   imageUrl;
   template;
+  subSection;
+  subTemplate;
 
   constructor(url) {
+    current % 2 !== 0 ? (this.subSection = true) : (this.subSection = false);
     this.imageUrl = `../assets/article-${url}.jpg`;
+    this.subTemplate = `<div class="form">
+    <form>
+        <div class="form__container">
+          <h2 class="h2__color">Subscribe to our Newsletter</h2>
+        </div>
+          <div class="form__container" style="background-color:white">
+              <input type="text" placeholder="Name" name="name" required>
+              <input type="text" placeholder="Email address" name="mail" required>
+              <label>
+              <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+              </label>
+          </div>
+          <div class="form__container">
+              <input type="submit" value="Subscribe">
+          </div>
+          </form>
+      </div>`;
     this.template = `  
     <div>
         <div class="main__wrapper">
@@ -31,39 +51,23 @@ class Article {
         <ul class="social">
           <li class="social__buttons">
             <a href="#">
-              <img class="navbar-image" src="../assets/Facebook_icon-icons.com_66805.png" alt="Facebook" srcset=""/>
-            </a>
-          </li>
-          <li class="social__buttons">
-            <a href="#">
-              <img class="navbar-image" src="../assets/5294-twitter-i_102511 (1).png" alt="Twitter" srcset=""/>
-            </a>
-          </li>
-          <li class="social__buttons">
-            <a href="#">
-              <img class="navbar-image" src="../assets/3721672-instagram_108066 (1).png" alt="Instagram" srcset=""/>
-            </a>
-          </li>
-        </ul>
-      </div>
-        <div class="form">
-          <form>
-              <div class="form__container">
-                <h2 class="h2__color">Subscribe to our Newsletter</h2>
-              </div>
-                <div class="form__container" style="background-color:white">
-                    <input type="text" placeholder="Name" name="name" required>
-                    <input type="text" placeholder="Email address" name="mail" required>
-                    <label>
-                    <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
-                    </label>
-                </div>
-                <div class="form__container">
-                    <input type="submit" value="Subscribe">
-                </div>
-                </form>
-            </div>
+                <img class="navbar-image" src="../assets/Facebook_icon-icons.com_66805.png" alt="Facebook" srcset=""/>
+              </a>
+            </li>
+            <li class="social__buttons">
+              <a href="#">
+                <img class="navbar-image" src="../assets/5294-twitter-i_102511 (1).png" alt="Twitter" srcset=""/>
+              </a>
+            </li>
+            <li class="social__buttons">
+              <a href="#">
+                <img class="navbar-image" src="../assets/3721672-instagram_108066 (1).png" alt="Instagram" srcset=""/>
+              </a>
+            </li>
+          </ul>
         </div>
+        ${this.subSection ? this.subTemplate : ''}
+      </div>
     </div>`;
   }
 
