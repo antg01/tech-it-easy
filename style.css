@@ -47,13 +47,14 @@ ul {
 .navbar-nav {
   display: flex;
   position: absolute;
-  right: 80px;
+  right: 35px;
   top: 27%;
   margin: 5px;
   padding: 5px;
   bottom: 0;
   width: 120px;
   justify-content: space-between;
+  scroll-behavior: smooth;
 }
 
 
@@ -344,7 +345,6 @@ ul {
  .navbar-nav{
    width: 90px;
  }
-
 }      
 
 
@@ -360,6 +360,7 @@ ul {
     height: 20px;
     }
   .logo{
+    display: block;
     left: 60px;
     top: 5%;
     height: 20px;
