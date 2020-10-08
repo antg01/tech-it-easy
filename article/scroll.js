@@ -1,15 +1,13 @@
 // START SCROLL
-
-let current = 2;
-
 class Article {
+  static current = 2;
   imageUrl;
   template;
   subSection;
   subTemplate;
 
   constructor(url) {
-    current % 2 !== 0 ? (this.subSection = true) : (this.subSection = false);
+    Article.current % 3 === 0 ? (this.subSection = true) : (this.subSection = false);
     this.imageUrl = `../assets/article-${url}.jpg`;
     this.subTemplate = `<div class="form">
     <form>
@@ -80,15 +78,13 @@ class Article {
 
 window.addEventListener('scroll', (e) => {
   if (window.innerHeight + window.scrollY >= document.body.offsetHeight) {
-    console.log('bottom');
-    const newArticle = new Article(current);
+    const newArticle = new Article(Article.current);
     newArticle.render();
-    if (current < 9) {
-      current++;
+    if (Article.current < 9) {
+      Article.current++;
     } else {
-      current = 1;
+      Article.current = 1;
     }
   }
 });
-
 // END SCROLL
