@@ -35,7 +35,12 @@ class Article {
         <div>
         <article>
           <h1 class="main__item-title">Title</h1>
-      
+
+          <div class="main__item-tags">
+          <h3 class="main__item-tag">#Tag</h3>
+          <h3 class="main__item-tag">#Tag</h3>
+          <h3 class="main__item-tag">#Tag</h3>
+        </div>
          <p><span class="article__text-first-letter">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Nisi nemo molestias natus deleniti fugit quaerat ipsa ducimus at cumque tempore beatae et, quos exercitationem cupiditate necessitatibus, quasi commodi debitis. Voluptatum!
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptatem laborum necessitatibus, voluptate perferendis dolorum nam officiis sunt doloribus nihil eos accusantium nemo, ut, repellendus repudiandae! Ullam suscipit laudantium nostrum.
         </p>
