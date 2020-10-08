@@ -79,15 +79,36 @@ ul {
 .main__item-title {
   /* border-radius: 5px; */
   background-color: #fff04e;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem;
+  font-size: 40px;
+  margin: 10px 0 10px 0;
+}
+.main__item-tags {
+  display: flex;
+  align-items: center;
+}
+.main__item-tag {
+  margin-right: 1rem;
+  padding: 0.5rem;
+  background-color: #023255;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1rem;
 }
 p {
   font-family: 'Roboto', sans-serif;
-  text-align: justify;
   font-size: 18px;
-  margin: 60px 0px 60px 0px;
+  text-indent: 2em;
+  margin: 30px 0px 60px 0px;
 }
-
+@media screen and (max-width: 320px) {
+  .main__item-title {
+    font-size: 1rem;
+  }
+  .main__item-tag {
+    font-size: 0.5rem;
+  }
+}
 /* END ARTICLE */
 /* SOCIAL NET BUTTONS START */
 .social{
