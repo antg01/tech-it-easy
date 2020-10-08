@@ -67,6 +67,10 @@ ul {
   height: 61vh;
 }
 @media screen and (max-width: 790px) {
+  .main__wrapper {
+    padding: 0;
+  }
+
   .hero-image {
     width: 100%;
     height: auto;
@@ -212,10 +216,10 @@ input[type='submit']:hover {
     padding: 10px;
     margin: 15px;
   }
-  .navbar-image{
+  .navbar-image {
     height: 25px;
-    }
-  .logo{
+  }
+  .logo {
     left: 60px;
     top: 5%;
     height: 20px;
