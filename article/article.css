@@ -11,7 +11,7 @@ body {
 /* START NAV  */
 
 .navbar {
-  position: relative;
+  position: fixed;
   display: flex;
   top: 0px;
   flex-direction: row;
@@ -186,7 +186,7 @@ input[type='submit']:hover {
     margin: 15px;
   }
   .navbar-image{
-    height: 20px;
+    height: 25px;
     }
   .logo{
     left: 60px;

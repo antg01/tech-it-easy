@@ -23,6 +23,7 @@ body {
   background-color: #030914be;
   height: 100px;
   z-index: 999;
+  transition: smooth;
 }
 
 ul {
@@ -342,6 +343,10 @@ ul {
     height: 28px;
  }
 
+ .logo{
+   left: 60px;
+ }
+
  .navbar-nav{
    width: 90px;
  }
@@ -350,14 +355,14 @@ ul {
 
 @media screen and (max-width: 400px) {
   .navbar-nav{
-    right: 10px;
+    right: 5px;
     top: 15%;
     width: 70px;
     padding: 10px;
     margin: 15px;
   }
   .navbar-image{
-    height: 20px;
+    height: 25px;
     }
   .logo{
     display: block;

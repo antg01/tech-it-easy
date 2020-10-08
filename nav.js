@@ -10,13 +10,8 @@ window.addEventListener('scroll', (event) => {
   const main = document.getElementById('main');
   const navbar = document.getElementById('navbar');
   if (window.scrollY >= main.offsetTop) {
-    navbar.style.position = 'fixed';
+   navbar.style.position = 'fixed';
    navbar.querySelector(".image-logo").style.display = 'block';
-   navbar.sroll({
-    top: 600,
-    behavior: 'Smooth'
-  })
-  
 
   } else {
     navbar.style.position = 'relative';
