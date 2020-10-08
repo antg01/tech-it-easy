@@ -35,12 +35,13 @@ class Article {
         <div>
         <article>
           <h1 class="main__item-title">Title</h1>
+
           <div class="main__item-tags">
           <h3 class="main__item-tag">#Tag</h3>
           <h3 class="main__item-tag">#Tag</h3>
           <h3 class="main__item-tag">#Tag</h3>
         </div>
-         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi nemo molestias natus deleniti fugit quaerat ipsa ducimus at cumque tempore beatae et, quos exercitationem cupiditate necessitatibus, quasi commodi debitis. Voluptatum!
+         <p><span class="article__text-first-letter">L</span>orem ipsum dolor sit amet consectetur adipisicing elit. Nisi nemo molestias natus deleniti fugit quaerat ipsa ducimus at cumque tempore beatae et, quos exercitationem cupiditate necessitatibus, quasi commodi debitis. Voluptatum!
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore voluptatem laborum necessitatibus, voluptate perferendis dolorum nam officiis sunt doloribus nihil eos accusantium nemo, ut, repellendus repudiandae! Ullam suscipit laudantium nostrum.
         </p>
         <p>
@@ -52,9 +53,9 @@ class Article {
         <div>
         <ul class="social">
           <li class="social__buttons">
-            <a href="#">
-                <img class="navbar-image" src="../assets/Facebook_icon-icons.com_66805.png" alt="Facebook" srcset=""/>
-              </a>
+          <a data-href="https://www.facebook.com/Techiteasybxl" data-layout="button" data-size="large" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.facebook.com%2FTechiteasybxl&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">
+          <img class="navbar-image" src="../assets/Facebook_icon-icons.com_66805.png" alt="Facebook"/>
+        </a>
             </li>
             <li class="social__buttons">
               <a href="#">
