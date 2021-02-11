@@ -1,3 +1,8 @@
+#Tech It Easy
+
+It is a project for a start-up that needed a web media platform. The website proposes content about the digital world .
+
+
 ----- Charte graphique
 
 Blanc : # ffffff
